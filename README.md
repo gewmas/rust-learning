@@ -7,7 +7,7 @@ Welcome to your Rust journey. Since you have 10 years of experience, we won't sp
 ### Phase 1: The Memory Model (The Hurdle)
 - [x] **Ownership & Moving:** Understanding how Rust manages memory without a GC.
 - [x] **Borrowing & References:** `&T` vs `&mut T`. The golden rule: one mutable XOR many immutable.
-- [ ] **Lifetimes:** Telling the compiler how long data lives.
+- [x] **Lifetimes:** Telling the compiler how long data lives.
 
 ### Phase 2: Power Typing
 - [ ] **Enums & Pattern Matching:** Using ADTs to represent state (e.g., `Option`, `Result`).

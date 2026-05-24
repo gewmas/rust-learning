@@ -1,4 +1,5 @@
 mod borrowing;
+mod enums;
 mod lifetimes;
 mod ownership;
 
@@ -9,4 +10,5 @@ fn main() {
     ownership::run();
     borrowing::run();
     lifetimes::run();
+    enums::run();
 }
