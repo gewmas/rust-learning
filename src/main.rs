@@ -2,6 +2,7 @@ mod borrowing;
 mod enums;
 mod lifetimes;
 mod ownership;
+mod traits;
 
 fn main() {
     println!("Welcome to Rust Mastery!");
@@ -11,4 +12,5 @@ fn main() {
     borrowing::run();
     lifetimes::run();
     enums::run();
+    traits::run();
 }
