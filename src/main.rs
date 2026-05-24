@@ -1,5 +1,6 @@
 mod borrowing;
 mod enums;
+mod error_handling;
 mod generics;
 mod lifetimes;
 mod ownership;
@@ -15,4 +16,5 @@ fn main() {
     enums::run();
     traits::run();
     generics::run();
+    error_handling::run();
 }
