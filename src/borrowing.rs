@@ -14,12 +14,12 @@ pub fn run() {
     // 3. THE GOLDEN RULE EXERCISE
     // You cannot have a mutable reference while you have immutable ones.
     // UNCOMMENT the block below to see the borrow checker in action:
-    /*
+
     let r1 = &s1; // immutable borrow
     let r2 = &s1; // immutable borrow
-    let r3 = &mut s1; // PROBLEM: mutable borrow
-    println!("{}, {}, and {}", r1, r2, r3);
-    */
+    // let r3 = &mut s1; // PROBLEM: mutable borrow
+    // println!("{}, {}, and {}", r1, r2, r3);
+    println!("{} and {}", r1, r2);
 }
 
 fn calculate_length(s: &String) -> usize {
