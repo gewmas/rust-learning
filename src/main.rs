@@ -1,5 +1,6 @@
 mod borrowing;
 mod enums;
+mod generics;
 mod lifetimes;
 mod ownership;
 mod traits;
@@ -13,4 +14,5 @@ fn main() {
     lifetimes::run();
     enums::run();
     traits::run();
+    generics::run();
 }

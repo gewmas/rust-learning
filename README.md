@@ -11,7 +11,7 @@ Welcome to your Rust journey. Since you have 10 years of experience, we won't sp
 
 ### Phase 2: Power Typing
 - [x] **Enums & Pattern Matching:** Using ADTs to represent state (e.g., `Option`, `Result`).
-- [ ] **Traits:** Defining shared behavior (Rust's take on interfaces).
+- [x] **Traits:** Defining shared behavior (Rust's take on interfaces).
 - [ ] **Generics:** Writing reusable code without performance hits (monomorphization).
 
 ### Phase 3: Modern Backend Rust
