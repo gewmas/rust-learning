@@ -17,8 +17,8 @@ pub fn run() {
 
     let r1 = &s1; // immutable borrow
     let r2 = &s1; // immutable borrow
-    // let r3 = &mut s1; // PROBLEM: mutable borrow
-    // println!("{}, {}, and {}", r1, r2, r3);
+                  // let r3 = &mut s1; // PROBLEM: mutable borrow
+                  // println!("{}, {}, and {}", r1, r2, r3);
     println!("{} and {}", r1, r2);
 }
 

@@ -1,4 +1,5 @@
 mod borrowing;
+mod lifetimes;
 mod ownership;
 
 fn main() {
@@ -7,4 +8,5 @@ fn main() {
     // Run the completed exercises
     ownership::run();
     borrowing::run();
+    lifetimes::run();
 }
