@@ -7,6 +7,7 @@ mod lifetimes;
 mod ownership;
 mod serialization;
 mod traits;
+mod web_api;
 
 #[tokio::main]
 async fn main() {
@@ -22,6 +23,7 @@ async fn main() {
     error_handling::run();
     serialization::run();
 
-    // The async exercise needs to be awaited
+    // Async exercises
     async_rust::run().await;
+    web_api::run().await;
 }
