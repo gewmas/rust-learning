@@ -16,7 +16,7 @@ Welcome to your Rust journey. Since you have 10 years of experience, we won't sp
 
 ### Phase 3: Modern Backend Rust
 - [x] **Error Handling:** Propagating errors with the `?` operator.
-- [ ] **Async Rust:** The `Tokio` runtime and `Future` trait.
+- [x] **Async Rust:** The `Tokio` runtime and `Future` trait.
 - [ ] **Serialization:** Using `Serde` for JSON/Data handling.
 
 ### Phase 4: Full-Stack Integration

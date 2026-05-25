@@ -5,6 +5,7 @@ mod error_handling;
 mod generics;
 mod lifetimes;
 mod ownership;
+mod serialization;
 mod traits;
 
 #[tokio::main]
@@ -19,6 +20,7 @@ async fn main() {
     traits::run();
     generics::run();
     error_handling::run();
+    serialization::run();
 
     // The async exercise needs to be awaited
     async_rust::run().await;
