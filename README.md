@@ -20,7 +20,7 @@ Welcome to your Rust journey. Since you have 10 years of experience, we won't sp
 - [x] **Serialization:** Using `Serde` for JSON/Data handling.
 
 ### Phase 4: Full-Stack Integration
-- [ ] **Web Frameworks:** Building an API with `Axum` or `Actix-Web`.
+- [x] **Web Frameworks:** Building an API with `Axum` or `Actix-Web`.
 - [ ] **Persistence:** Connecting to Postgres with `SQLx` or `Diesel`.
 - [ ] **WASM:** Compiling Rust for the browser.
 
