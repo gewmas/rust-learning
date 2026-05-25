@@ -16,3 +16,6 @@ This project is dedicated to mastering Rust from the perspective of a senior ful
 ## 📖 Progress Tracking
 - Use `README.md` as the primary roadmap.
 - Create new modules/files in `src/` for each major concept (e.g., `src/ownership.rs`, `src/traits.rs`).
+
+## 🏗 Architecture Patterns
+- For a realistic production setup, see [PRODUCTION_SETUP.md](./PRODUCTION_SETUP.md).
