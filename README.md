@@ -15,7 +15,7 @@ Welcome to your Rust journey. Since you have 10 years of experience, we won't sp
 - [x] **Generics:** Writing reusable code without performance hits (monomorphization).
 
 ### Phase 3: Modern Backend Rust
-- [ ] **Error Handling:** Propagating errors with the `?` operator.
+- [x] **Error Handling:** Propagating errors with the `?` operator.
 - [ ] **Async Rust:** The `Tokio` runtime and `Future` trait.
 - [ ] **Serialization:** Using `Serde` for JSON/Data handling.
 

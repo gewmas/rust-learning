@@ -1,3 +1,4 @@
+mod async_rust;
 mod borrowing;
 mod enums;
 mod error_handling;
@@ -6,7 +7,8 @@ mod lifetimes;
 mod ownership;
 mod traits;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     println!("Welcome to Rust Mastery!");
 
     // Run the completed exercises
@@ -17,4 +19,7 @@ fn main() {
     traits::run();
     generics::run();
     error_handling::run();
+
+    // The async exercise needs to be awaited
+    async_rust::run().await;
 }
